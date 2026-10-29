@@ -43,3 +43,13 @@ p,ul{color:var(--muted)}a{color:#087d85}
 .research-figure-pair{display:grid;grid-template-columns:1fr 1fr;gap:18px}
 .research-figure-pair .research-figure{margin:16px 0}
 @media(max-width:700px){.research-figure-pair{grid-template-columns:1fr}}
+
+/* Pale aqua site background */
+:root{--bg:#e8f6f5;--panel:#f2fbfa}
+body{background:#e8f6f5}
+.section{background:#e8f6f5}
+.pagehead{background:linear-gradient(120deg,#d9f0ef,#e8f6f5)}
+.hero{background:radial-gradient(ellipse at 85% 35%,#bce9e9 0,transparent 43%),radial-gradient(ellipse at 18% 85%,#d5f1ef 0,transparent 47%),#e8f6f5}
+.card{background:#f7fcfb}
+.banner{background:linear-gradient(120deg,#d8efed,#eaf8f6)}
+.footer{background:#d9eeec}
