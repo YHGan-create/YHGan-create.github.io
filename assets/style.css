@@ -16,3 +16,30 @@ a:focus-visible,input:focus-visible{outline:3px solid #f6c47c;outline-offset:3px
 footer{margin-top:auto}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important}}
 @media(max-width:800px){.hero{min-height:520px}.hero:after{right:-160px;opacity:.22}nav a{padding:4px 0}}
+
+/* Light academic palette */
+:root{--bg:#f6f9fb;--panel:#fff;--line:#dbe6eb;--text:#173044;--muted:#506879;--aqua:#087d85;--gold:#ae702e}
+body{background:#f6f9fb;color:var(--text)}
+p,ul{color:var(--muted)}a{color:#087d85}
+.top{background:#fffffff2;border-bottom:1px solid var(--line);box-shadow:0 3px 16px #102c4010}
+.brand{color:#143044}nav a{color:#365469}nav a.active{color:#087d85}
+.hero{background:radial-gradient(ellipse at 85% 35%,#bce9e9 0,transparent 43%),radial-gradient(ellipse at 18% 85%,#d9edf6 0,transparent 47%),#eef6f9;min-height:570px}
+.hero:after{border-color:#087d8540;box-shadow:0 0 0 36px #087d8508,0 0 0 90px #087d8508,0 0 0 155px #087d8505}
+.section{border-top:1px solid #e0e9ee}.pagehead{background:linear-gradient(120deg,#e6f5f6,#f7fbfc)}
+.card{background:#fff;border:1px solid #dce8ec;box-shadow:0 10px 30px #1b46500a}
+.banner{background:linear-gradient(120deg,#e5f3f4,#f2f8fa);border:1px solid #d1e5e8}
+.btn{background:#087d85;color:white}.btn.secondary{color:#17646c;border:1px solid #9bbfc3}
+.eyebrow,.tag,.number{color:#087d85}
+.footer{background:#edf4f7;border-top:1px solid #dce7eb;color:#526a7b}
+.footer a{color:#17646c}
+.search{background:white;color:#173044;border-color:#b9cfd7}
+.portrait{background:#d7ebed;color:#17646c}
+.year{color:#17646c;border-color:#b9cfd7}
+.figure{background:#fff;border:1px solid #dbe6eb;color:#506879}
+.warning{background:#fff5e8;color:#624b27}
+.research-figure{margin:24px 0 34px;background:white;border:1px solid #dce8ec;border-radius:14px;overflow:hidden;box-shadow:0 10px 30px #1b46500a}
+.research-figure img{display:block;width:100%;height:auto;max-height:600px;object-fit:contain;background:#fff}
+.research-figure figcaption{padding:14px 20px;color:#506879;font-size:.9rem;line-height:1.6}
+.research-figure-pair{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.research-figure-pair .research-figure{margin:16px 0}
+@media(max-width:700px){.research-figure-pair{grid-template-columns:1fr}}
