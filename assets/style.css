@@ -53,3 +53,9 @@ body{background:#e8f6f5}
 .card{background:#f7fcfb}
 .banner{background:linear-gradient(120deg,#d8efed,#eaf8f6)}
 .footer{background:#d9eeec}
+
+/* Refined academic wordmark typography */
+.brand,.brand b{font-family:Georgia,'Times New Roman',serif;font-weight:600;letter-spacing:.025em;text-transform:none}
+.brand{font-size:1.42rem;line-height:1.15;color:#173044}
+.brand b{font-size:.94em;color:#087d85;font-weight:600}
+@media(max-width:600px){.brand{font-size:1.2rem}}
